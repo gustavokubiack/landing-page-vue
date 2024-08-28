@@ -1,0 +1,76 @@
+body {
+    padding-top: 56px;
+}
+
+.teste {
+    margin-top: 100px;
+}
+.navbar{
+    background-color: #051d40;
+}
+
+.custom-link {
+    color: white
+}
+
+.custom-link:hover {
+    color: #6ee9f9; 
+    border-bottom: 2px solid #6ee9f9
+}
+
+
+.navbar-brand img {
+    width: 250px; 
+    height: auto; 
+}
+
+.btn-custom {
+    background-color: #051d40;
+    color: white;
+}
+.btn-custom:hover {
+    background-color: #051d40; 
+    color: white;
+}
+
+.bg-color{
+    background-color: #051d40;
+}
+
+.carousel-item img {
+    max-height: 300px; /* ou a altura máxima desejada */
+    width: auto; /* mantém a largura da imagem responsiva */
+    object-fit: cover; /* garante que a imagem cubra a área sem perder as proporções */
+    margin: auto; /* centraliza a imagem se ela for menor que o espaço disponível */
+}
+
+
+section {
+    padding: 60px 0;
+}
+
+
+section#agenda {
+    background-color: #e9ecef;
+}
+
+section#inscricao {
+    background-color: #fff;
+}
+
+
+footer {
+    background-color: #051d40;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #ffffff;
+    margin: 0 15px;
+    font-size: 24px;
+}
+
+footer a:hover {
+    color: #ddd;
+    text-decoration: none;
+}
